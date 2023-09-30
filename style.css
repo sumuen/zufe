@@ -1,0 +1,224 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden; /* 隐藏水平滚动条 */
+}
+
+body{
+    background-color: #e3e9f7;
+}
+.container {
+    width: 100vw;
+    height: auto;
+  }
+
+  .card {
+    background-image: url('./images/background.png');
+    width: 92%;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    border-radius: 15%;
+    display: flex;
+    justify-content: space-between; /* 修改此行 */
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+input.text-20,
+input.text-12 {
+  border: none;
+  background: none;
+  outline: none;
+  text-align: left;
+}
+
+input.text-20 {
+  font-size: 20px;
+}
+
+input.text-12 {
+  font-size: 12px;
+}
+
+.avatar-input {
+  display: none;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 65%; /* 添加此行 */
+    padding-left: 5%;
+  }
+  
+  .avatar {
+    width: 35%; /* 添加此行 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .avatar img {
+
+    height: 130px;
+    width: 80px;
+    
+}
+
+  .name {
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    /* color: #ffffff; */
+    margin-bottom: 0;
+  }
+  .  {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .college {
+    white-space: nowrap; /* 添加此行 */
+    font-size: 14px;
+    /* font-weight: bold; */
+    /* color: #ffffff; */
+    margin-bottom: 0;
+    
+  }
+
+  
+
+  
+.qr-code-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    width: 85%;
+    padding-top: 3%; /* 内上边距 */
+    padding-bottom: 15%; /* 内下边距 */
+    padding-left: 5%;
+    margin-left: 5%; /* wai左边距 */
+    margin-right: 5%; /* wai右边距 */
+    background-color: #ffffff;
+    border-radius: 15px; /* 添加圆角 */
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+.blue-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem;
+    position: right;
+  }
+.blue {
+    margin-right: 0.5rem;
+    height: 25px;
+}
+.bluetext {
+    position: relative;
+    top: -5px; 
+}
+.qr-code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* 居中对齐 */
+    padding-top: 10%; /* 内上边距 */
+    padding-bottom: 5%; /* 内下边距 */
+    width: 55%;
+    max-width: 100%; /* 防止图片在小屏幕上超出容器宽度 */
+    
+}
+
+.balance-wrapper {
+    width: 75%;
+    background-color: #f7fafc;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto; /* 居中对齐 */
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 15px; 
+    /* 添加圆角 */
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.balance-info {
+    display: flex;
+    align-items: center;
+}
+
+.balance {
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+.personal-center {
+    color: #4a5568;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.greentitle {
+    color: #2ecc71;
+    font-size: 20px;
+}
+.blowtitle {
+    font-size: 12px;
+}
+.blue-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem;
+    position: right;
+  }
+  .links-wrapper {
+    width: 82%;
+    background-color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+  }
+  
+  .icon-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 18px;
+  }
+  
+  .serviceicon {
+    height: 38px;
+    margin-bottom: 8px;
+  }
+  
+  .icon-text {
+    font-size: 11px;
+    margin: 0;
+  }
+  
+  
+

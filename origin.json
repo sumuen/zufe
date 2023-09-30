@@ -1,0 +1,162 @@
+{
+    "code": 0,
+    "message": "OK",
+    "custom_fields": null,
+    "app_fields": [
+        {
+            "apps": [
+                {
+                    "icon": "https:\/\/wxpublic-1251448646.file.myqcloud.com\/open\/schoolApp\/introduction\/1609634308572041.png",
+                    "name": "\u6d88\u8d39\u8bb0\u5f55",
+                    "redirect_type": 4,
+                    "path": "\/pages\/extFeature_package\/pages\/consume\/consume",
+                    "id": "e6988e4e4307df47e66d710ec0308da2"
+                },
+                {
+                    "icon": "https:\/\/wxpublic-1251448646.file.myqcloud.com\/open\/schoolApp\/introduction\/1609682211172135.png",
+                    "name": "\u901a\u77e5\u516c\u544a",
+                    "app_id": "notice_list",
+                    "redirect_type": 2,
+                    "url": "https:\/\/wecard.qq.com\/notice\/index?school_id=46540&ADTAG=46540",
+                    "id": "c524b41f53f5000f3090df1e670df4fe"
+                }
+            ],
+            "field_name": "\u83dc\u56ed\u670d\u52a1"
+        }
+    ],
+    "manager_app_fields": [],
+    "cardface_configure": {
+        "global": {
+            "width": 1000,
+            "height": 600,
+            "color": "#000000",
+            "background": "https:\/\/wxpublic-1251448646.file.myqcloud.com\/cardface\/rpupdnd1ok846444mu17253c5eb221d38b10f04e2802b58a9677.png"
+        },
+        "info": [
+            {
+                "index": "name",
+                "name": "\u59d3\u540d",
+                "value": "\u67f4\u4e50\u660a",
+                "type": "text",
+                "left": 50,
+                "top": 263,
+                "xAlign": "left",
+                "yAlign": "top",
+                "fontSize": 50,
+                "fontWeight": "normal",
+                "display": true
+            },
+            {
+                "index": "card_number",
+                "name": "\u5b66\u5de5\u53f7",
+                "value": "200110750302",
+                "type": "text",
+                "left": 50,
+                "top": 327,
+                "xAlign": "left",
+                "yAlign": "top",
+                "fontSize": 50,
+                "fontWeight": "normal",
+                "display": true
+            },
+            {
+                "index": "head_image",
+                "name": "\u5934\u50cf",
+                "value": "\/\/wxprivate-1251448646.file.myqcloud.com\/campus\/avatars\/46540\/300\/b3jmr4nelb4v9W_Z3Eq0ny0bmhcv.png?sign=+T6bgVZijGOSBEck3XVxNnewrWRhPTEyNTE0NDg2NDYmYj13eHByaXZhdGUmaz1BS0lEUnJDUmRtZHl4cGFIckx3MU9pOVZtdzQ1S2JudHFxaE4mZT0xNjgxNTIxMjgyJnQ9MTY4MTUyMDk4MiZyPTg0MTkxMTUyNiZmPQ==",
+                "type": "image",
+                "left": 745,
+                "top": 183,
+                "xAlign": "left",
+                "yAlign": "top",
+                "height": 252,
+                "width": 180,
+                "radius": 8,
+                "display": true
+            },
+            {
+                "index": "college",
+                "name": "\u5b66\u9662",
+                "value": "\u4eba\u6587\u4e0e\u4f20\u64ad\u5b66\u9662",
+                "type": "text",
+                "display": true,
+                "left": 50,
+                "top": 425,
+                "xAlign": "left",
+                "yAlign": "top",
+                "fontSize": 30,
+                "fontWeight": "normal"
+            }
+        ],
+        "base": [
+            {
+                "display": true,
+                "fontSize": 52,
+                "fontWeight": "normal",
+                "index": "brand_name",
+                "left": 160,
+                "top": 90,
+                "type": "text",
+                "xAlign": "left",
+                "yAlign": "middle",
+                "value": ""
+            },
+            {
+                "display": true,
+                "height": 100,
+                "index": "logo",
+                "left": 40,
+                "radius": 50,
+                "top": 90,
+                "type": "image",
+                "width": 100,
+                "xAlign": "left",
+                "yAlign": "middle",
+                "value": "\/\/wxpublic-1251448646.file.myqcloud.com\/school_logo\/5e26f84ace72070100a196f54a514e80.png"
+            }
+        ]
+    },
+    "brand_name": "",
+    "logo": "\/\/wxpublic-1251448646.file.myqcloud.com\/school_logo\/5e26f84ace72070100a196f54a514e80.png",
+    "background": "\/\/wxpublic-1251448646.file.myqcloud.com\/school_logo\/972557f668ba01a9abd30934018f3c65.png",
+    "color": "#08C27C",
+    "show_ecode": true,
+    "show_clock": false,
+    "ecode_logo": "\/\/wxpublic-1251448646.file.myqcloud.com\/school_logo\/c48fa674dd77ff61e163627807621dad.png",
+    "ecode_name": "\u83dc\u56ed\u7801",
+    "show_anti_counterfeiting_strip": false,
+    "ecode_bg": "#FFFFFF",
+    "ecode_watermark": "#000000",
+    "ecode_watermark_scroll": false,
+    "show_jxt_qrcode": null,
+    "banner": [],
+    "is_manager": false,
+    "need_client_render": true,
+    "is_work_weixin": false,
+    "has_cardface": false,
+    "initializing": false,
+    "template_id_info": "35756",
+    "allow_service_hall_frozen": 1,
+    "user_frozen_status": 0,
+    "school_id": 46540,
+    "school_code": "1656385720",
+    "school_name": "\u6d59\u6c5f\u8d22\u7ecf\u5927\u5b66",
+    "school_logo": "\/\/wxpublic-1251448646.file.myqcloud.com\/school_logo\/1544111a26dc12b86ea220080ce987ae.png",
+    "skin": "002002",
+    "corp_id": "",
+    "version": {
+        "name": "\u4e13\u4e1a\u7248",
+        "icon": "https:\/\/static-1256689631.cos.ap-shanghai.myqcloud.com\/uni\/common\/version-icon\/new\/profession.png",
+        "version": 2,
+        "limited": false,
+        "created_at": "2022-06-28T03:20:03.000000Z",
+        "expired": false,
+        "expireAt": "",
+        "expireIn": 0,
+        "userLimit": 0
+    },
+    "notice_url": "https:\/\/wecard.qq.com\/notice\/index?school_id=46540&ADTAG=46540",
+    "recent_notice": null,
+    "base_info": {
+        "expire_status": 0
+    }
+}
